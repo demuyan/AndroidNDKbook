@@ -2,9 +2,6 @@
 
 ここにあるのは、「AndroidNDKネイティブプログラミング」に掲載されたコード、もしくはその検証用に作成されたコードです。
 
-## ライセンスについて
-
-ここに掲載されているコードはすべて、Apache Licenseとします。
 
 ## 開発環境
 Eclipse（Helios）, ADT, CDTを利用しています。
@@ -39,4 +36,15 @@ EclipseからNDKのビルドをできるようにしておくと便利です（�
 ### ch07/
 - ExportModule/  外部モジュールの設定
 - InlineAsm/     インラインアセンブラ使用例
+
+## ライセンスについて
+
+ここに掲載されているコードはすべて、Apache Licenseとします。
+
+## NOTICE
+
+このコードは、部分的に、Android Open Source Projectのコードを含んでいます。
+
+This product includes software developed as part of
+The Android Open Source Project (http://source.android.com).
 
