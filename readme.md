@@ -26,9 +26,6 @@ EclipseからNDKのビルドをできるようにしておくと便利です（�
 - cubedroid2/   立方体表示（JNIからのOpenGL|ES2.0呼び出し）  
 - NativeBitmap/ NativeBitmap  
 
-### ch05/
-- jniAudio/　OpenSL|ESによるBGM再生
-
 ### ch06/
 - NativeMultiTouch/  JNIによるマルチタッチ取得
 - NativeSensor/      JNIによるセンサー取得
@@ -48,3 +45,6 @@ EclipseからNDKのビルドをできるようにしておくと便利です（�
 This product includes software developed as part of
 The Android Open Source Project (http://source.android.com).
 
+## 更新履歴
+
+2011/12/19 ch05サンプル削除。コードはNDKのサンプルにあるNativeAudioを参考にしてください
