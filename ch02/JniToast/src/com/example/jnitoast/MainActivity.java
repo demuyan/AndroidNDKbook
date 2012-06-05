@@ -15,17 +15,17 @@ public class MainActivity extends Activity {
         
         setContentView(R.layout.main);
         
-        	Button btn = (Button)findViewById(R.id.btn);
-        		btn.setOnClickListener(new View.OnClickListener() {
+        Button btn = (Button)findViewById(R.id.btn);
+        btn.setOnClickListener(new View.OnClickListener() {
 				
-				@Override
-				public void onClick(View v) {
-					CharSequence text = "JNIからToast表示";
-					displayToast(text);
-				}
-			});
+			@Override
+			public void onClick(View v) {
+				CharSequence text = "JNIからToast表示";
+				displayToast(text);
+			}
+		});
         
-    	}
+    }
     
     public native void displayToast(CharSequence charseq);
 
